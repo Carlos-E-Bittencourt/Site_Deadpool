@@ -24,7 +24,8 @@ body{
     padding: 0;
     border: 0;
     margin: 0;
-    background-color: #8b1a1a;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(150,35,51,1) 50%, rgba(96,38,44,1) 100%);
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -38,14 +39,6 @@ body{
 
 #principal{
     display: flex;
-}
-
-#aliados1{
-    background-color: rgb(41, 41, 41);
-}
-
-#aliados2{
-    background-color: rgb(41, 41, 41);
 }
 
 #imgcable{
